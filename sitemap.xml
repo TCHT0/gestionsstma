@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://gestionsst-ma.org/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://gestionsst-ma.org/perfil.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gestionsst-ma.org/servicios-ambientales.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gestionsst-ma.org/sg-sst.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gestionsst-ma.org/acompanamiento.html</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gestionsst-ma.org/articulos.html</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
