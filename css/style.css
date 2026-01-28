@@ -910,3 +910,25 @@ body:not(.dark-mode) .hero-content p {
         gap: 10px;
     }
 }
+/* --- CORRECCIÓN FOOTER SIMPLE (Página Contacto) --- */
+
+/* Esto asegura que si el footer solo tiene el texto de copyright,
+   tenga suficiente espacio arriba y abajo para no verse aplastado */
+.footer .container p {
+   padding: 25px 0; /* Espacio vertical */
+   margin: 0;       /* Quita márgenes por defecto */
+   font-weight: 500;
+   font-size: 1rem;
+   opacity: 0.9;
+}
+
+/* Ajuste opcional si sientes que la página de contacto queda muy corta en pantallas grandes */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer.footer {
+    margin-top: auto; /* Empuja el footer al fondo si hay poco contenido arriba */
+}
