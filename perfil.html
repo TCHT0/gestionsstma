@@ -7,6 +7,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .perfil-foto {
+            width: 300px; height: 300px; object-fit: cover; border-radius: 50%; border: 5px solid var(--primary-color); box-shadow: var(--shadow);
+        }
+        .resume-item { background: white; padding: 30px; border-radius: 20px; box-shadow: var(--shadow); margin-bottom: 30px; border-left: 5px solid var(--primary-color); }
+        .resume-header h3 { margin-bottom: 5px; color: var(--primary-color); }
+        .company-name { font-weight: 600; font-size: 1.1rem; display: block; margin-bottom: 10px; }
+        .resume-meta { display: flex; gap: 20px; color: #666; font-size: 0.9rem; margin-bottom: 20px; }
+        .resume-meta i { color: var(--primary-color); margin-right: 5px; }
+        .resume-description strong { color: var(--text-color); }
+        .skill-tag { background: white; padding: 10px 20px; border-radius: 30px; box-shadow: var(--shadow); font-weight: 500; display: inline-block; }
+        @media (max-width: 768px) { .grid-2-cols { grid-template-columns: 1fr !important; } .resume-meta { flex-direction: column; gap: 5px; } }
+    </style>
 </head>
 <body>
 
@@ -30,69 +43,75 @@
     </nav>
 
     <section class="profile-hero">
-        <div class="container grid-profile">
+        <div class="container grid-profile" style="align-items: center;">
             <div class="profile-text">
-                <span class="badge">Especialista en SG-SST</span>
+                <span class="badge">Ingeniera SSOMA</span>
                 <h1>Daniela Velasco</h1>
-                <p class="subtitle">Ingeniera Ambiental dedicada a la sostenibilidad y la seguridad industrial.</p>
-                <p>Con una sólida trayectoria en el sector, mi enfoque se centra en transformar la normativa técnica en soluciones prácticas. Te ayudo a construir un proceso de contratación y operación más <strong>seguro y sostenible</strong>, garantizando que tu empresa no solo cumpla, sino que destaque por su responsabilidad.</p>
+                <p class="subtitle" style="line-height: 1.4;">Especialista en Sistemas de Gestión de Seguridad y Salud en el Trabajo | Integración Sostenibilidad y Bienestar Laboral | Colombia</p>
+                <p>Profesional dedicada a transformar la normativa técnica en soluciones prácticas. Mi enfoque integra la sostenibilidad ambiental, la seguridad industrial y el bienestar laboral para construir procesos operativos seguros y responsables en tu organización.</p>
+                
                 <div class="social-icons" style="justify-content: flex-start; margin-top: 20px;">
-                    <a href="https://wa.me/57XXXXXXXXXX" class="social-link"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.instagram.com" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/57XXXXXXXXXX" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
                     <a href="mailto:contacto@gestionsst-ma.com" class="social-link"><i class="fab fa-google"></i></a>
                 </div>
             </div>
-            <div class="profile-image">
-                <div class="image-placeholder">
-                    <i class="fas fa-user-tie"></i>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section bg-light">
-        <div class="container">
-            <h2>Por qué lo hacemos</h2>
-            <p class="section-subtitle">Nuestra razón de ser es tu tranquilidad operativa.</p>
-            <div class="values-grid">
-                <div class="value-item">
-                    <i class="fas fa-heart"></i>
-                    <h3>Pasión</h3>
-                    <p>Amamos proteger el entorno y a las personas que hacen posible tu empresa.</p>
-                </div>
-                <div class="value-item">
-                    <i class="fas fa-lightbulb"></i>
-                    <h3>Innovación</h3>
-                    <p>Buscamos métodos modernos para simplificar procesos complejos de ingeniería.</p>
-                </div>
-                <div class="value-item">
-                    <i class="fas fa-handshake"></i>
-                    <h3>Compromiso</h3>
-                    <p>Tu meta es la nuestra; acompañamiento real de principio a fin.</p>
-                </div>
+            <div class="profile-image" style="display: flex; justify-content: center;">
+                <img src="img/perfil.jpg" alt="Ing. Daniela Velasco" class="perfil-foto">
             </div>
         </div>
     </section>
 
     <section class="section">
         <div class="container">
-            <h2>Nuestras Ventajas Competitivas</h2>
-            <div class="competencies">
-                <div class="comp-card">
-                    <div class="comp-icon">01</div>
-                    <h4>Excelencia e Integridad</h4>
-                    <p>Actuamos bajo los más altos estándares éticos y técnicos en cada auditoría y plan de manejo.</p>
+            <h2>Trayectoria Profesional Destacada</h2>
+            <p class="section-subtitle">Experiencia comprobable en campo y gestión.</p>
+            
+            <div class="resume-item">
+                <div class="resume-header">
+                    <h3>Profesional Residente SSOMA</h3>
+                    <span class="company-name">Consorcio Azucarero (Jornada completa)</span>
                 </div>
-                <div class="comp-card">
-                    <div class="comp-icon">02</div>
-                    <h4>Orientación al Cliente</h4>
-                    <p>No somos un proveedor más, somos tu aliado estratégico en gestión ambiental.</p>
+                <div class="resume-meta">
+                    <span><i class="far fa-calendar-alt"></i> Dic. 2022 - Abr. 2023 (5 meses)</span>
+                    <span><i class="fas fa-map-marker-alt"></i> Valle del Cauca, Colombia</span>
                 </div>
-                <div class="comp-card">
-                    <div class="comp-icon">03</div>
-                    <h4>Equidad y Respeto</h4>
-                    <p>Promovemos entornos de trabajo justos, base fundamental de cualquier sistema SG-SST exitoso.</p>
+                <p class="resume-description">
+                    Como Profesional RESIDENTE SSOMA en proyectos de construcción de parques infantiles en Candelaria y Palmira, lideré la implementación exitosa del SG-SST. Mis responsabilidades abarcaron la identificación y evaluación de riesgos, desarrollo de procedimientos de trabajo seguro, capacitación de personal, inspecciones, auditorías y gestión ambiental.
+                    <br><br>
+                    <strong>Logro Principal:</strong> Reducción del índice de accidentes en un <strong>85%</strong> y aumento de la percepción de seguridad entre los trabajadores, implementando estrategias efectivas como programas de inducción intensivos y sistemas de reconocimiento, superando los desafíos de alta rotación en el sector construcción.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="container">
+            <div class="grid-2-cols" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+                
+                <div>
+                    <h2>Educación Académica</h2>
+                    <div style="background: white; padding: 30px; border-radius: 20px; box-shadow: var(--shadow);">
+                        <i class="fas fa-graduation-cap" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 15px;"></i>
+                        <h3 style="margin-bottom: 5px;">Universidad de Boyacá</h3>
+                        <p style="font-weight: 600; margin-bottom: 5px;">Medio ambiente, salud y seguridad</p>
+                        <span style="color: #666;">2013 – 2019</span>
+                    </div>
                 </div>
+
+                <div>
+                    <h2>Aptitudes Clave</h2>
+                    <p style="margin-bottom: 20px;">Competencias técnicas y de gestión.</p>
+                    <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                        <span class="skill-tag">Sistema de gestión de la seguridad (SG-SST)</span>
+                        <span class="skill-tag">Prevención de riesgos laborales</span>
+                        <span class="skill-tag">Gestión SSOMA</span>
+                        <span class="skill-tag">Auditorías e Inspecciones</span>
+                        <span class="skill-tag">Capacitación de Personal</span>
+                        <span class="skill-tag">Normativa Legal Vigente</span>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
