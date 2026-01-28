@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículos y Actualidad | Ing. Daniela Velasco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Gestionsst-ma</div>
+        
+        <div class="hamburger" id="hamburger-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul class="nav-links" id="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="perfil.html">Perfil Profesional</a></li>
+            <li><a href="servicios-ambientales.html">Serv. Ambientales</a></li>
+            <li><a href="sg-sst.html">SG-SST</a></li>
+            <li><a href="acompanamiento.html">Acompañamiento</a></li>
+            <li><a href="articulos.html" class="active">Artículos</a></li>
+            <li><a href="contacto.html" class="btn-contact-nav">Contacto</a></li>
+            <li class="theme-switch-wrapper">
+                <button id="theme-toggle" class="theme-btn" title="Cambiar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero-articles">
+        <div class="hero-overlay-dark">
+            <div class="container">
+                <span class="badge">Blog & Novedades</span>
+                <h1>Actualidad Normativa y Ambiental</h1>
+                <p>Análisis técnico, opiniones expertas y las últimas novedades en legislación para mantener tu empresa al día.</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            
+            <div class="categories-bar">
+                <button class="cat-btn active">Todos</button>
+                <button class="cat-btn">Normativa</button>
+                <button class="cat-btn">Seguridad</button>
+                <button class="cat-btn">Sostenibilidad</button>
+            </div>
+
+            <div class="blog-grid">
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=800&auto=format&fit=crop" alt="Normativa" class="editable">
+                        <span class="blog-tag tag-normativa editable">Normativa</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date editable"><i class="far fa-calendar-alt"></i> 28 Ene, 2024</div>
+                        <h3 class="editable">Actualización Resolución 0312: Lo que debes saber</h3>
+                        <p class="editable">Análisis detallado sobre los nuevos estándares mínimos del SG-SST y cómo afectan a las PYMES este año.</p>
+                        <a href="#" class="read-more editable">Leer artículo completo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=800&auto=format&fit=crop" alt="Ambiente" class="editable">
+                        <span class="blog-tag tag-ambiental editable">Sostenibilidad</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date editable"><i class="far fa-calendar-alt"></i> 15 Ene, 2024</div>
+                        <h3 class="editable">Economía Circular en la Industria</h3>
+                        <p class="editable">Cómo transformar los residuos de tu proceso productivo en materia prima y reducir costos operativos.</p>
+                        <a href="#" class="read-more editable">Leer artículo completo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=800&auto=format&fit=crop" alt="Seguridad" class="editable">
+                        <span class="blog-tag tag-seguridad editable">Seguridad</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date editable"><i class="far fa-calendar-alt"></i> 10 Dic, 2023</div>
+                        <h3 class="editable">Prevención de Riesgo Psicosocial</h3>
+                        <p class="editable">Estrategias para mejorar el clima laboral y cumplir con la batería de riesgo psicosocial en 2024.</p>
+                        <a href="#" class="read-more editable">Leer artículo completo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                 <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1581093583449-ed25213444e6?q=80&w=800&auto=format&fit=crop" alt="Agua" class="editable">
+                        <span class="blog-tag tag-ambiental editable">Ambiental</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date editable"><i class="far fa-calendar-alt"></i> 05 Nov, 2023</div>
+                        <h3 class="editable">Uso Eficiente del Agua (PUEAA)</h3>
+                        <p class="editable">Guía práctica para implementar programas de ahorro hídrico y evitar sanciones de la autoridad ambiental.</p>
+                        <a href="#" class="read-more editable">Leer artículo completo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>¿Quieres recibir estas novedades en tu correo?</h2>
+            <p>Suscríbete a nuestro boletín mensual de ingeniería y normativa.</p>
+            <div style="margin-top: 20px;">
+                <form action="TU_LINK_DE_FORMSPREE_AQUI" method="POST">
+                    <input type="email" name="email" placeholder="Tu correo electrónico" required style="padding: 10px 20px; border-radius: 20px; border: none; width: 300px; max-width: 100%;">
+                    <button type="submit" class="cta-mini" style="background: var(--bg-color); color: var(--primary-color); border: none; margin-left: 10px; cursor: pointer;">Suscribirse</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <h2>Hablemos</h2>
+            <p>Estamos listos para asesorarte.</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:contacto@gestionsst-ma.com" class="contact-link">
+                        <i class="fab fa-google contact-icon"></i>
+                        <span>contacto@gestionsst-ma.com</span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://wa.me/57XXXXXXXXXX" target="_blank" class="contact-link">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <span>+57 XXX XXX XXXX</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="social-media">
+                <p>Síguenos en redes:</p>
+                <div class="social-icons">
+                      <a href="https://www.tiktok.com" target="_blank" class="social-link">
+                     <i class="fab fa-tiktok" title="TikTok"></i>
+                     </a>
+                     <a href="https://www.youtube.com" target="_blank" class="social-link">
+                     <i class="fab fa-youtube" title="YouTube"></i>
+                     </a>     
+                     <a href="https://www.instagram.com" target="_blank" class="social-link">
+                     <i class="fab fa-instagram" title="Instagram"></i>
+                     </a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2024 Gestionsst-ma. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
