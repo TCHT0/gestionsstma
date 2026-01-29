@@ -4,15 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Profesional | Ing. Daniela Velasco</title>
-	<link rel="icon" type="image/png" href="img/logo-nucleo.png">
-	<meta property="og:title" content="Núcleo HSEQ | Gestión Ambiental y SST">
+    <link rel="icon" type="image/png" href="img/logo-nucleo.png">
+    
+    <meta property="og:title" content="Núcleo HSEQ | Gestión Ambiental y SST">
     <meta property="og:description" content="Lideramos la seguridad y sostenibilidad de tu empresa con la Ing. Daniela Velasco.">
     <meta property="og:image" content="https://gestionsst-ma.org/img/logo-nucleo.png">
     <meta property="og:url" content="https://gestionsst-ma.org/">
     <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
     <style>
         .perfil-foto {
             width: 300px; height: 300px; object-fit: cover; border-radius: 50%; border: 5px solid var(--primary-color); box-shadow: var(--shadow);
@@ -30,7 +33,10 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">Gestionsst-ma</div>
+        <div class="logo">
+            <img src="img/logo-nucleo.png" alt="Logo" style="height:40px; vertical-align:middle;"> 
+            <span style="margin-left:10px;">Núcleo HSEQ</span>
+        </div>
         <div class="hamburger" id="hamburger-btn">
             <i class="fas fa-bars"></i>
         </div>
@@ -52,9 +58,16 @@
         <div class="container grid-profile" style="align-items: center;">
             <div class="profile-text">
                 <span class="badge">Ingeniera SSOMA</span>
-                <h1>Daniela Velasco</h1>
-                <p class="subtitle" style="line-height: 1.4;">Especialista en Sistemas de Gestión de Seguridad y Salud en el Trabajo | Integración Sostenibilidad y Bienestar Laboral | Colombia</p>
-                <p>Profesional dedicada a transformar la normativa técnica en soluciones prácticas. Mi enfoque integra la sostenibilidad ambiental, la seguridad industrial y el bienestar laboral para construir procesos operativos seguros y responsables en tu organización.</p>
+                
+                <h1 class="editable">Daniela Velasco</h1>
+                
+                <p class="subtitle editable" style="line-height: 1.4;">
+                    Especialista en Sistemas de Gestión de Seguridad y Salud en el Trabajo | Integración Sostenibilidad y Bienestar Laboral | Colombia
+                </p>
+                
+                <div class="editable">
+                    <p>Profesional dedicada a transformar la normativa técnica en soluciones prácticas. Mi enfoque integra la sostenibilidad ambiental, la seguridad industrial y el bienestar laboral para construir procesos operativos seguros y responsables en tu organización.</p>
+                </div>
                 
                 <div class="social-icons" style="justify-content: flex-start; margin-top: 20px;">
                     <a href="https://wa.me/573126467524" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
@@ -75,18 +88,18 @@
             
             <div class="resume-item">
                 <div class="resume-header">
-                    <h3>Profesional Residente SSOMA</h3>
-                    <span class="company-name">Consorcio Azucarero (Jornada completa)</span>
+                    <h3 class="editable">Profesional Residente SSOMA</h3>
+                    <span class="company-name editable">Consorcio Azucarero (Jornada completa)</span>
                 </div>
                 <div class="resume-meta">
-                    <span><i class="far fa-calendar-alt"></i> Dic. 2022 - Abr. 2023 (5 meses)</span>
-                    <span><i class="fas fa-map-marker-alt"></i> Valle del Cauca, Colombia</span>
+                    <span class="editable"><i class="far fa-calendar-alt"></i> Dic. 2022 - Abr. 2023 (5 meses)</span>
+                    <span class="editable"><i class="fas fa-map-marker-alt"></i> Valle del Cauca, Colombia</span>
                 </div>
-                <p class="resume-description">
-                    Como Profesional RESIDENTE SSOMA en proyectos de construcción de parques infantiles en Candelaria y Palmira, lideré la implementación exitosa del SG-SST. Mis responsabilidades abarcaron la identificación y evaluación de riesgos, desarrollo de procedimientos de trabajo seguro, capacitación de personal, inspecciones, auditorías y gestión ambiental.
-                    <br><br>
-                    <strong>Logro Principal:</strong> Reducción del índice de accidentes en un <strong>85%</strong> y aumento de la percepción de seguridad entre los trabajadores, implementando estrategias efectivas como programas de inducción intensivos y sistemas de reconocimiento, superando los desafíos de alta rotación en el sector construcción.
-                </p>
+                <div class="resume-description editable">
+                    <p>Como Profesional RESIDENTE SSOMA en proyectos de construcción de parques infantiles en Candelaria y Palmira, lideré la implementación exitosa del SG-SST. Mis responsabilidades abarcaron la identificación y evaluación de riesgos, desarrollo de procedimientos de trabajo seguro, capacitación de personal, inspecciones, auditorías y gestión ambiental.</p>
+                    <br>
+                    <p><strong>Logro Principal:</strong> Reducción del índice de accidentes en un <strong>85%</strong> y aumento de la percepción de seguridad entre los trabajadores, implementando estrategias efectivas como programas de inducción intensivos y sistemas de reconocimiento, superando los desafíos de alta rotación en el sector construcción.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -99,22 +112,25 @@
                     <h2>Educación Académica</h2>
                     <div style="background: white; padding: 30px; border-radius: 20px; box-shadow: var(--shadow);">
                         <i class="fas fa-graduation-cap" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 15px;"></i>
-                        <h3 style="margin-bottom: 5px;">Universidad de Boyacá</h3>
-                        <p style="font-weight: 600; margin-bottom: 5px;">Medio ambiente, salud y seguridad</p>
-                        <span style="color: #666;">2013 – 2019</span>
+                        <div class="editable">
+                            <h3 style="margin-bottom: 5px;">Universidad de Boyacá</h3>
+                            <p style="font-weight: 600; margin-bottom: 5px;">Medio ambiente, salud y seguridad</p>
+                            <span style="color: #666;">2013 – 2019</span>
+                        </div>
                     </div>
                 </div>
 
                 <div>
                     <h2>Aptitudes Clave</h2>
                     <p style="margin-bottom: 20px;">Competencias técnicas y de gestión.</p>
-                    <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                    <div class="editable" style="display: flex; flex-wrap: wrap; gap: 15px;">
                         <span class="skill-tag">Sistema de gestión de la seguridad (SG-SST)</span>
                         <span class="skill-tag">Prevención de riesgos laborales</span>
                         <span class="skill-tag">Gestión SSOMA</span>
                         <span class="skill-tag">Auditorías e Inspecciones</span>
                         <span class="skill-tag">Capacitación de Personal</span>
                         <span class="skill-tag">Normativa Legal Vigente</span>
+                        <span class="skill-tag">Microsoft Excel</span>
                     </div>
                 </div>
 

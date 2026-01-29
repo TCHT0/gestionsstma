@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artículos y Actualidad | Ing. Daniela Velasco</title>
-	<link rel="icon" type="image/png" href="img/logo-nucleo.png">
-	<meta property="og:title" content="Núcleo HSEQ | Gestión Ambiental y SST">
+    <link rel="icon" type="image/png" href="img/logo-nucleo.png">
+    
+    <meta property="og:title" content="Núcleo HSEQ | Gestión Ambiental y SST">
     <meta property="og:description" content="Lideramos la seguridad y sostenibilidad de tu empresa con la Ing. Daniela Velasco.">
     <meta property="og:image" content="https://gestionsst-ma.org/img/logo-nucleo.png">
     <meta property="og:url" content="https://gestionsst-ma.org/">
     <meta property="og:type" content="website">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,7 +19,10 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">Gestionsst-ma</div>
+        <div class="logo">
+             <img src="img/logo-nucleo.png" alt="Núcleo HSEQ Logo" style="height: 40px; vertical-align: middle;">
+             <span style="margin-left: 10px;">Núcleo HSEQ</span>
+        </div>
         
         <div class="hamburger" id="hamburger-btn">
             <i class="fas fa-bars"></i>
@@ -43,8 +48,8 @@
         <div class="hero-overlay-dark">
             <div class="container">
                 <span class="badge">Blog & Novedades</span>
-                <h1>Actualidad Normativa y Ambiental</h1>
-                <p>Análisis técnico, opiniones expertas y las últimas novedades en legislación para mantener tu empresa al día.</p>
+                <h1 class="editable">Actualidad Normativa y Ambiental</h1>
+                <p class="editable">Análisis técnico, opiniones expertas y las últimas novedades en legislación para mantener tu empresa al día.</p>
             </div>
         </div>
     </header>
@@ -119,8 +124,8 @@
 
     <section class="cta-section">
         <div class="container">
-            <h2>¿Quieres recibir estas novedades en tu correo?</h2>
-            <p>Suscríbete a nuestro boletín mensual de ingeniería y normativa.</p>
+            <h2 class="editable">¿Quieres recibir estas novedades en tu correo?</h2>
+            <p class="editable">Suscríbete a nuestro boletín mensual de ingeniería y normativa.</p>
             <div style="margin-top: 20px;">
                 <form action="https://formspree.io/f/xaqjndgn" method="POST">
                     <input type="email" name="email" placeholder="Tu correo electrónico" required style="padding: 10px 20px; border-radius: 20px; border: none; width: 300px; max-width: 100%;">
@@ -132,8 +137,8 @@
 
     <footer id="contacto" class="footer">
         <div class="container">
-            <h2>Hablemos</h2>
-            <p>Estamos listos para asesorarte.</p>
+            <h2 class="editable">Hablemos</h2>
+            <p class="editable">Estamos listos para asesorarte.</p>
             
             <div class="contact-info">
                 <div class="contact-item">
@@ -173,4 +178,4 @@
 
     <script src="js/script.js"></script>
 </body>
-</html> 
+</html>
